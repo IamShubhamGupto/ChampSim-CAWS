@@ -1,0 +1,37 @@
+in src/main
+line 360 page_table.erse(pr);
+line 361 page_table.isert(make_pair(vpage, mapped_ppage));
+line 430 page_table.inset(make_pair(vpage, random_ppage));
+line 317 map <uint64_t, char>::iterator pr = page_table.begin(); 
+line 330 if (pr == page_table.end) { // no VA => PA translation found
+line 457 if (pr == page_table.end)
+line 351 if (pr == page_table.end)
+line 339 for (pr = page_table.begin; pr != page_table.end; pr++) {
+line 339 for (pr = page_table.begin; pr != page_table.end; pr++) {
+
+in prefetcher/no.l1d_pref
+line 2 int remove_this_var;
+
+in prefetcher/l1d_prefetcher.cc
+line 2 int remove_this_var;
+
+
+in prefetcher/no.llc_pref
+line 2 int remove_this_var;
+
+in prefetcher/llc_prefetcher.cc
+line 2 int remove_this_var;
+
+
+in prefetcher/no.l1i_pref
+line 3 int remove_this_var;
+
+in prefetcher/l1i_prefetcher.cc
+line 3 int remove_this_var;
+
+
+in prefetcher/no.l1c_pref
+line 2 int remove_this_var;
+
+in prefetcher/l2c_prefetcher.cc
+line 2 int remove_this_var;
